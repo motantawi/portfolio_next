@@ -40,7 +40,7 @@ const about = () => {
               skills for developing new features and enhance the overall user
               experience.
             </p>
-            <Link href="/#projects">
+            <Link href="/projects">
               <p className="py-2 text-gray-600 underline cursor-pointer">
                 Check out some of my latest projects.
               </p>
