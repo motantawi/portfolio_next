@@ -5,6 +5,7 @@ import movixImg from "../public/assets/projects/movix.png";
 import gymImg from "../public/assets/projects/gym-app.png";
 import ProjectItem from "../components/ProjectItem";
 import weatherImg from "../public/assets/projects/weather.png";
+import youtubeImg from "../public/assets/projects/youtube.png";
 import recipeImg from "../public/assets/projects/recipe.png";
 import dashImg from "../public/assets/projects/dashboard.png";
 import linkedImg from "../public/assets/projects/linkedin.png";
@@ -54,6 +55,14 @@ const projects = () => {
               projectUrl="/movie"
               tech="React JS"
             />
+
+            <ProjectItem
+              title="YouTube Clone"
+              backgroundImg={youtubeImg}
+              projectUrl="/youtube"
+              tech="React JS"
+            />
+
             <ProjectItem
               title="Ai Summarizer"
               backgroundImg={aiImg}
