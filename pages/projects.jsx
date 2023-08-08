@@ -5,6 +5,7 @@ import movixImg from "../public/assets/projects/movix.png";
 import gymImg from "../public/assets/projects/gym-app.png";
 import ProjectItem from "../components/ProjectItem";
 import weatherImg from "../public/assets/projects/weather.png";
+import recipeImg from "../public/assets/projects/recipe.png";
 import dashImg from "../public/assets/projects/dashboard.png";
 import linkedImg from "../public/assets/projects/linkedin.png";
 import Head from "next/head";
@@ -56,8 +57,13 @@ const projects = () => {
             <ProjectItem
               title="Ai Summarizer"
               backgroundImg={aiImg}
-              n
               projectUrl="/summarizer"
+              tech="React JS"
+            />
+            <ProjectItem
+              title="Recipe App"
+              backgroundImg={recipeImg}
+              projectUrl="/recipe"
               tech="React JS"
             />
             <ProjectItem
@@ -74,4 +80,3 @@ const projects = () => {
 };
 
 export default projects;
-
