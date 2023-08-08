@@ -4,6 +4,7 @@ import AmazonImg from "../public/assets/projects/amazon.png";
 import netflixImg from "../public/assets/projects/netflix.png";
 import gymImg from "../public/assets/projects/gym-app.png";
 import ProjectItem from "../components/ProjectItem";
+import weatherImg from "../public/assets/projects/weather.png";
 import dashImg from "../public/assets/projects/dashboard.png";
 import linkedImg from "../public/assets/projects/linkedin.png";
 import Head from "next/head";
@@ -50,6 +51,12 @@ const projects = () => {
               title="Ai Summarizer"
               backgroundImg={aiImg}
               projectUrl="/summarizer"
+              tech="React JS"
+            />
+            <ProjectItem
+              title="Weather Website"
+              backgroundImg={weatherImg}
+              projectUrl="/weather"
               tech="React JS"
             />
             <ProjectItem
