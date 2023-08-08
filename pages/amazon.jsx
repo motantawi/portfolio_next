@@ -72,10 +72,7 @@ const crypto = () => {
                   <RiRadioButtonFill className="pr-1" /> Stripe
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Authentication
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Fake Store API
+                  <RiRadioButtonFill className="pr-1" /> APIs
                 </p>
               </div>
             </div>
