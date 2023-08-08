@@ -1,7 +1,7 @@
 import React from "react";
 import aiImg from "../public/assets/projects/ai-sumz.png";
 import AmazonImg from "../public/assets/projects/amazon.png";
-import netflixImg from "../public/assets/projects/netflix.png";
+import movixImg from "../public/assets/projects/movix.png";
 import gymImg from "../public/assets/projects/gym-app.png";
 import ProjectItem from "../components/ProjectItem";
 import weatherImg from "../public/assets/projects/weather.png";
@@ -48,8 +48,15 @@ const projects = () => {
               tech="React JS"
             />
             <ProjectItem
+              title="Movix"
+              backgroundImg={movixImg}
+              projectUrl="/movie"
+              tech="React JS"
+            />
+            <ProjectItem
               title="Ai Summarizer"
               backgroundImg={aiImg}
+              n
               projectUrl="/summarizer"
               tech="React JS"
             />
@@ -57,12 +64,6 @@ const projects = () => {
               title="Weather Website"
               backgroundImg={weatherImg}
               projectUrl="/weather"
-              tech="React JS"
-            />
-            <ProjectItem
-              title="Movie App"
-              backgroundImg={netflixImg}
-              projectUrl="/movie"
               tech="React JS"
             />
           </div>
@@ -73,3 +74,4 @@ const projects = () => {
 };
 
 export default projects;
+
