@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.png";
+import movixImg from "../public/assets/projects/movix.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
@@ -9,7 +9,7 @@ const movie = () => {
   return (
     <>
       <Head>
-        <title>Projects | Movies App</title>
+        <title>Projects | Movix</title>
         <link rel="icon" href="/fav.png" />
       </Head>
 
@@ -20,12 +20,12 @@ const movie = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={netflixImg}
+            src={movixImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Movies App</h2>
-            <h3>React JS / Bootstrap / APIs</h3>
+            <h2 className="py-2">Movix</h2>
+            <h3>React JS / Redux / React Router / TMDB API</h3>
           </div>
         </div>
 
@@ -37,21 +37,17 @@ const movie = () => {
               I built this application in React JS and is hosted on Firbase.
               This application is pulling movie data from an the TMDB movie API
               and displaying different categories. It features horizontal
-              sliding and a featured selection. The useContext hook is also
-              being implemented for app-wide state management.
+              sliding and a featured selection. Redux is also being implemented
+              for app-wide state management.
             </p>
             <a
-              href="https://github.com/motantawi/movie-app"
+              href="https://github.com/motantawi/movix"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
-            <a
-              href="https://movie-app14.web.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://movix12.web.app/" target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
@@ -63,10 +59,10 @@ const movie = () => {
                   <RiRadioButtonFill className="pr-1" /> React
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Bootstrap
+                  <RiRadioButtonFill className="pr-1" /> Redux-ToolKit
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Javascript
+                  <RiRadioButtonFill className="pr-1" /> React Router DOM
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> TMDB API
