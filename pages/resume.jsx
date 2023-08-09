@@ -91,7 +91,7 @@ const resume = () => {
             <span className="px-2">|</span>Zagazig, EG
           </p>
           <p className="py-1 italic">
-            Front End Web Developer Freelancing (Current) (Three Monthes)
+            Front End Web Developer Freelancing (Current) (Four Monthes)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
