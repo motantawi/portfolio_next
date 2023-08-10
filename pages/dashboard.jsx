@@ -25,7 +25,7 @@ const dashboard = () => {
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Admin Dashboard</h2>
-            <h3>React JS / Material UI / Data Grid / Light & Dark Mode</h3>
+            <h3>React JS / React Charts / Tailwind / Light & Dark Mode</h3>
           </div>
         </div>
 
@@ -36,8 +36,8 @@ const dashboard = () => {
             <p>
               I built this application in React JS and is hosted on Firbase.
               This application is using different kinds of charts. This
-              application supports Dark & Light Mode thanks to Material UI which
-              made that very easy.
+              application supports Dark & Light Mode and ability to be saved
+              using Local Storage.
             </p>
             <a
               href="https://github.com/motantawi/react-dashboard"
@@ -62,13 +62,10 @@ const dashboard = () => {
                   <RiRadioButtonFill className="pr-1" /> React
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Material UI
+                  <RiRadioButtonFill className="pr-1" /> Tailwind
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Javascript
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Data Grid
+                  <RiRadioButtonFill className="pr-1" /> React Charts
                 </p>
               </div>
             </div>
