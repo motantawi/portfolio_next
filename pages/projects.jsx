@@ -10,6 +10,7 @@ import recipeImg from "../public/assets/projects/recipe.png";
 import dashImg from "../public/assets/projects/dashboard.png";
 import linkedImg from "../public/assets/projects/linkedin.png";
 import financeImg from "../public/assets/projects/finance.png";
+import travelImg from "../public/assets/projects/travel.png";
 import Head from "next/head";
 
 const projects = () => {
@@ -86,6 +87,12 @@ const projects = () => {
               title="React Responsive"
               backgroundImg={financeImg}
               projectUrl="/finance"
+              tech="React JS"
+            />
+            <ProjectItem
+              title="Travel Website"
+              backgroundImg={travelImg}
+              projectUrl="/travel"
               tech="React JS"
             />
           </div>
