@@ -91,7 +91,7 @@ const resume = () => {
             <span className="px-2">|</span>Lucknow , IN
           </p>
           <p className="py-1 italic">
-            Front-End Web Developer Intern (Current)
+            Front-End Web Developer Intern (Present)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
