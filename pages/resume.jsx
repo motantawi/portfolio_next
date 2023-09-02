@@ -87,11 +87,30 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">Code Alpha</span>
+            <span className="px-2">|</span>Lucknow , IN
+          </p>
+          <p className="py-1 italic">
+            Front-End Web Developer Intern (Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Creating web pages using frontend technologies (HTML CSS and
+              JavaScript etc.)
+            </li>
+            <li>
+              Sharp understanding of client's requirement and which technologies
+              will be used in his project.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">BRAVO TECH</span>
             <span className="px-2">|</span>Zagazig, EG
           </p>
           <p className="py-1 italic">
-            Front End Web Developer Freelancing (Current) (Four Monthes)
+            Front End Web Developer Freelancing (Five Monthes)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -107,6 +126,13 @@ const resume = () => {
               implement multiple technologies and programs.
             </li>
           </ul>
+        </div>
+        <div className="flex justify-center mb-7">
+          <button className="p-3 cv_btn">
+            <a href="https://drive.google.com/file/d/1yweRjP305s-ycfsL_Vp-UE3DlgOlpstG/view">
+              Download CV
+            </a>
+          </button>
         </div>
       </div>
     </>
