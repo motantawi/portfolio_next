@@ -1,10 +1,46 @@
+"use client";
+
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { useRouter } from "next/router";
+export const links = [
+  {
+    id: 1,
+    title: "Home",
+    href: "/",
+  },
+  {
+    id: 2,
+    title: "About",
+    href: "/about",
+  },
+  {
+    id: 3,
+    title: "Skills",
+    href: "/skills",
+  },
+  {
+    id: 4,
+    title: "Projects",
+    href: "/projects",
+  },
+  {
+    id: 5,
+    title: "Resume",
+    href: "/resume",
+  },
+  {
+    id: 6,
+    title: "Contact",
+    href: "/contact",
+  },
+];
 
 const Navbar = () => {
+  const router = useRouter();
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
@@ -54,24 +90,20 @@ const Navbar = () => {
             style={{ color: `${linkColor}`, marginRight: "20px" }}
             className="hidden md:flex"
           >
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/about">About</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/skills">Skills</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/projects">Projects</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/contact">Contact</Link>
-            </li>
+            {links.map((link) => {
+              return (
+                <li
+                  className={
+                    router.pathname === link.href
+                      ? "ml-10 text-sm uppercase hover:border-b active"
+                      : "ml-10 text-sm uppercase hover:border-b"
+                  }
+                  key={link.id}
+                >
+                  <Link href={link.href}>{link.title}</Link>
+                </li>
+              );
+            })}
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -126,36 +158,22 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Home
-                </li>
-              </Link>
-              <Link href="/about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  About
-                </li>
-              </Link>
-              <Link href="/skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Skills
-                </li>
-              </Link>
-              <Link href="/projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
-                </li>
-              </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
-                </li>
-              </Link>
-              <Link href="/contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Contact
-                </li>
-              </Link>
+              {links.map((link) => {
+                return (
+                  <Link href={link.href} key={link.id}>
+                    <li
+                      onClick={() => setNav(false)}
+                      className={
+                        router.pathname === link.href
+                          ? "py-4 text-sm active2"
+                          : "py-4 text-sm"
+                      }
+                    >
+                      {link.title}
+                    </li>
+                  </Link>
+                );
+              })}
             </ul>
             <div style={{ paddingTop: "80px" }}>
               <p className="uppercase tracking-widest text-[#5651e5]">
