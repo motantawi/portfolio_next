@@ -74,3 +74,19 @@ html {
     display: inline-block;
   }
 }
+
+.active {
+  color: rgb(86 81 229 / var(--tw-text-opacity));
+  border-bottom: 2px solid rgb(86 81 229 / var(--tw-text-opacity));
+  font-weight: 900 !important;
+  width: fit-content;
+}
+.active2 {
+  color: rgb(86 81 229 / var(--tw-text-opacity));
+  font-weight: 900 !important;
+  width: fit-content;
+}
+
+a:hover {
+  color: rgb(86 81 229 / var(--tw-text-opacity));
+}
