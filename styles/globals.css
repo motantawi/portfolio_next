@@ -90,3 +90,8 @@ html {
 a:hover {
   color: rgb(86 81 229 / var(--tw-text-opacity));
 }
+
+.cv_btn:hover {
+  background: #fff !important;
+  color: rgb(86 81 229 / var(--tw-text-opacity));
+}
