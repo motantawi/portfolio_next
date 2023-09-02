@@ -106,6 +106,21 @@ const resume = () => {
         </div>
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">ALX Africa</span>
+          </p>
+          <p className="py-1 italic">Software Engineer (Present) (July 2023)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Software Engineering topics include: computer programming,
+              algorithms, data structures, human-computer interaction, web
+              development, software project management, architecture and
+              operating systems, security and usability, social responsibility
+              and ethics, etc. Software engineers usually work in teams.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">BRAVO TECH</span>
             <span className="px-2">|</span>Zagazig, EG
           </p>
@@ -129,7 +144,7 @@ const resume = () => {
         </div>
         <div className="flex justify-center mb-7">
           <button className="p-3 cv_btn">
-            <a href="https://drive.google.com/file/d/1yweRjP305s-ycfsL_Vp-UE3DlgOlpstG/view">
+            <a href="https://drive.google.com/file/d/1DKrtD0dmMmt7qYjA1Pyj4cdF2DSBgb1p/view">
               Download CV
             </a>
           </button>
