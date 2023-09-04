@@ -144,7 +144,7 @@ const resume = () => {
         </div>
         <div className="flex justify-center mb-7">
           <button className="p-3 cv_btn">
-            <a href="https://drive.google.com/file/d/1DKrtD0dmMmt7qYjA1Pyj4cdF2DSBgb1p/view">
+            <a href="https://drive.google.com/file/d/1_VdWnJ497URUbexInYprtor7HJ6tDOc3/view">
               Download CV
             </a>
           </button>
