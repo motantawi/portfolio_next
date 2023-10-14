@@ -70,14 +70,15 @@ const resume = () => {
             <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>Typescript
             <span className="px-2">|</span>React
-            <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>Next
             <span className="px-2">|</span>SASS
             <span className="px-2">|</span>Bootstrap
             <span className="px-2">|</span>Redux
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span>RESTAPIs
-            <span className="px-2">|</span>PHP
-            <span className="px-2">|</span>MySQL
+            <span className="px-2">|</span>Node
+            <span className="px-2">|</span>Express
+            <span className="px-2">|</span>MongoDB
+            <span className="px-2">|</span>Mongoose
           </p>
         </div>
 
