@@ -58,11 +58,11 @@ const resume = () => {
           being a great developer is not using one specific language, but
           choosing the best tool for the job.
         </p>
-        <h5 className="text-center underline text-[18px] py-4">
+        <h5 className="text-center underline text-[18px] py-6">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className="py-6">
+        <div className="py-4">
           <p className="italic">
             <span className="font-bold italic">Code Alpha</span>
             <span className="px-2">|</span>Lucknow , IN
