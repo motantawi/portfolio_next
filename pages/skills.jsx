@@ -10,7 +10,7 @@ import SASS from "../public/assets/skills/sass.png";
 import NextJS from "../public/assets/skills/nextjs.png";
 import Typescript from "../public/assets/skills/typescript.png";
 import Bootstrap from "../public/assets/skills/bootstrap.png";
-import PHP from "../public/assets/skills/php.png";
+import Node from "../public/assets/skills/nodejs.png";
 import Mysql from "../public/assets/skills/mysql.png";
 import Head from "next/head";
 
@@ -133,7 +133,7 @@ const skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={PHP} width="80px" height="64px" alt="/" />
+                  <Image src={Node} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>PHP</h3>
