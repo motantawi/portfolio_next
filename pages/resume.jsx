@@ -58,30 +58,6 @@ const resume = () => {
           being a great developer is not using one specific language, but
           choosing the best tool for the job.
         </p>
-
-        {/* Skills */}
-        <div className="text-center py-4">
-          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <p className="py-2 skills">
-            <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Front-End Web Developer
-            <span className="px-2">|</span> HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>Typescript
-            <span className="px-2">|</span>React
-            <span className="px-2">|</span>Next
-            <span className="px-2">|</span>SASS
-            <span className="px-2">|</span>Bootstrap
-            <span className="px-2">|</span>Redux
-            <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span>Node
-            <span className="px-2">|</span>Express
-            <span className="px-2">|</span>MongoDB
-            <span className="px-2">|</span>Mongoose
-          </p>
-        </div>
-
         <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
