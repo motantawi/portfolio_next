@@ -5,13 +5,13 @@ import Css from "../public/assets/skills/css.png";
 import Javascript from "../public/assets/skills/javascript.png";
 import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
-import Github from "../public/assets/skills/github1.png";
 import SASS from "../public/assets/skills/sass.png";
 import NextJS from "../public/assets/skills/nextjs.png";
 import Typescript from "../public/assets/skills/typescript.png";
 import Bootstrap from "../public/assets/skills/bootstrap.png";
-import Node from "../public/assets/skills/nodejs.png";
-import Mysql from "../public/assets/skills/mysql.png";
+import Node from "../public/assets/skills/node.png";
+import Express from "../public/assets/skills/express.png";
+import Mongo from "../public/assets/skills/mongo.png";
 import Head from "next/head";
 
 const skills = () => {
@@ -56,7 +56,7 @@ const skills = () => {
                   <Image src={Javascript} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>JavaScript</h3>
+                  <h3>JS</h3>
                 </div>
               </div>
             </div>
@@ -90,16 +90,7 @@ const skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                <div className="m-auto">
-                  <Image src={Github} width="64px" height="64px" alt="/" />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>Github</h3>
-                </div>
-              </div>
-            </div>
+
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -116,7 +107,7 @@ const skills = () => {
                   <Image src={Typescript} width="64px" height="64px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>Typescript</h3>
+                  <h3>TS</h3>
                 </div>
               </div>
             </div>
@@ -133,7 +124,7 @@ const skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={Node} width="85px" height="70px" alt="/" />
+                  <Image src={Node} width="80px" height="80px" alt="/" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>Node</h3>
@@ -143,10 +134,20 @@ const skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={Mysql} width="80px" height="90px" alt="/" />
+                  <Image src={Express} alt="/" width="64px" height="64px" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>MySQL</h3>
+                  <h3>Express</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image src={Mongo} width="80px" height="80px" alt="/" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Mongo</h3>
                 </div>
               </div>
             </div>

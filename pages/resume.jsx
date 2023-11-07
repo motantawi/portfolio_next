@@ -21,7 +21,7 @@ const resume = () => {
           </h2>
           <div className="flex">
             <a
-              href="https://www.linkedin.com/in/mustafa-tantawi12/"
+              href="https://www.linkedin.com/in/mustafa-tantawy/"
               target="_blank"
               rel="noreferrer"
             >
@@ -48,27 +48,49 @@ const resume = () => {
           </div>
         </div>
         <p>
-          An enthusiastic and detail-oriented Front-End Developer specialize in
-          building mobile responsive front-end UI applications that connect with
-          API’s and other backend technologies. I’m passionate about learning
-          new technologies and understand there is more than one way to
-          accomplish a task. Though I am most proficient in building front-end
-          applications using HTML, CSS, Javascript, and React, I am a quick
-          learner and can pick up new tech stacks as needed. I believe that
-          being a great developer is not using one specific language, but
-          choosing the best tool for the job.
+          Junior React Frontend Developer with extensive skills in HTML5, CSS3,
+          React, Redux, TypeScript, and more. Experience includes Front-End
+          Developer Intern at Code Alpha, where I demonstrated proficiency in
+          creating web pages using frontend technologies and understanding
+          client requirements. As a Software Engineering Intern at ALX Africa
+          and as a dedicated Freelancer, I honed my expertise in responsive UI
+          layouts, issue troubleshooting, and plugin configurations. Eager to
+          leverage skills and adaptability to contribute effectively in the
+          dynamic world of frontend development.
         </p>
-        <h5 className="text-center underline text-[18px] py-6">
+
+        {/* Skills */}
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2 skills">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">-{">"}</span> HTML
+            <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>JS
+            <span className="px-2">|</span>TS
+            <span className="px-2">|</span>React
+            <span className="px-2">|</span>Next
+            <span className="px-2">|</span>SASS
+            <span className="px-2">|</span>Bootstrap
+            <span className="px-2">|</span>Redux
+            <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span>Node
+            <span className="px-2">|</span>Express
+            <span className="px-2">|</span>MongoDB
+          </p>
+        </div>
+
+        <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className="py-4">
+        <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">Code Alpha</span>
             <span className="px-2">|</span>Lucknow , IN
           </p>
           <p className="py-1 italic">
-            Front-End Web Developer Intern (Present)
+            Front-End Web Developer Intern ( 9/2023 -{">"} 11/2023 )
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -76,7 +98,7 @@ const resume = () => {
               JavaScript etc.)
             </li>
             <li>
-              Sharp understanding of client's requirement and which technologies
+              Sharp understanding of client’s requirement and which technologies
               will be used in his project.
             </li>
           </ul>
@@ -121,7 +143,7 @@ const resume = () => {
         </div>
         <div className="flex justify-center mb-7">
           <button className="p-3 cv_btn">
-            <a href="https://drive.google.com/file/d/1_VdWnJ497URUbexInYprtor7HJ6tDOc3/view">
+            <a href="https://drive.google.com/file/d/13JhM84YyRx5NgjmUz4Md3rmXENFOrWBC/view">
               Download CV
             </a>
           </button>

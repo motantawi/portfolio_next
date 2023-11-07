@@ -17,28 +17,36 @@ const about = () => {
       >
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
           <div className="col-span-2">
-            <p className="uppercase text-xl tracking-widest text-[#5651e5]" style={{marginTop:"30px"}}>
+            <p
+              className="uppercase text-xl tracking-widest text-[#5651e5]"
+              style={{ marginTop: "30px" }}
+            >
               About
             </p>
             <h2 className="py-4">Who I Am</h2>
             <p className="py-2 text-gray-600">
-              I specialize in building mobile responsive front-end UI
-              applications that connect with API’s and other backend
-              technologies. I’m passionate about learning new technologies and
-              understand there is more than one way to accomplish a task. Though
-              I am most proficient in building front-end applications using
-              HTML, CSS, Javascript, and React, I am a quick learner and can
-              pick up new tech stacks as needed. I believe that being a great
-              developer is not using one specific language, but choosing the
-              best tool for the job.
+              Driven and adaptable Junior React Frontend Developer with hands-on
+              expertise in HTML5, CSS3, React, Redux, TypeScript, Next.js,
+              JavaScript, Node.js, Express, MongoDB, and more. Skilled in Agile
+              methodologies, I bring a strong foundation in frontend
+              technologies and a keen understanding of client requirements to
+              deliver impactful projects.
             </p>
             <p className="py-2 text-gray-600">
-              An enthusiastic and detail-oriented Front-End Developer. Seeking
-              to utilize my technical skills to provide value to the employer
-              and contribute to successful projects both today and in the
-              future. Aiming to take on new challenges and utilize my coding
-              skills for developing new features and enhance the overall user
-              experience.
+              Noteworthy experience includes roles as a Front-End Developer
+              Intern at Code Alpha, where I honed my skills in crafting web
+              pages using HTML, CSS, and JavaScript. Additionally, my tenure as
+              a Software Engineering Intern at ALX Africa broadened my knowledge
+              across diverse software engineering topics, reinforcing my
+              capabilities in programming, algorithms, web development, and
+              project management.
+            </p>
+            <p className="py-2 text-gray-600">
+              As a dedicated Freelance Front-End Developer, I ensured seamless
+              and mobile-responsive UI layouts, excelling in troubleshooting
+              issues, configuring operational plugins, and implementing design
+              changes. Eager to contribute and grow further in the ever-evolving
+              realm of frontend development.
             </p>
             <Link href="/projects">
               <p className="py-2 text-gray-600 underline cursor-pointer">
