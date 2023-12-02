@@ -48,7 +48,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Junior React Frontend Developer with extensive skills in HTML5, CSS3,
+          React Frontend Developer with extensive skills in HTML5, CSS3,
           React, Redux, TypeScript, and more. Experience includes Front-End
           Developer Intern at Code Alpha, where I demonstrated proficiency in
           creating web pages using frontend technologies and understanding
