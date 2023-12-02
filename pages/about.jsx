@@ -25,7 +25,7 @@ const about = () => {
             </p>
             <h2 className="py-4">Who I Am</h2>
             <p className="py-2 text-gray-600">
-              Driven and adaptable Junior React Frontend Developer with hands-on
+              Driven and adaptable React Frontend Developer with hands-on
               expertise in HTML5, CSS3, React, Redux, TypeScript, Next.js,
               JavaScript, Node.js, Express, MongoDB, and more. Skilled in Agile
               methodologies, I bring a strong foundation in frontend
