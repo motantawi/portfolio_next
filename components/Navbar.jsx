@@ -95,7 +95,7 @@ const Navbar = () => {
                 <li
                   className={
                     router.pathname === link.href
-                      ? "ml-10 text-sm uppercase hover:border-b active"
+                      ? "ml-10 text-sm uppercase active"
                       : "ml-10 text-sm uppercase hover:border-b"
                   }
                   key={link.id}

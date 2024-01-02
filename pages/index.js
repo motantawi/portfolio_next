@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Main from "../components/Main";
-import Particles from "react-particles";
 
 export default function Home() {
   return (
