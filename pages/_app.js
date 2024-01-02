@@ -1,13 +1,12 @@
 import NavBar from "../components/Navbar";
 import "../styles/globals.css";
-import Provider from "../utils/ThemeProvider";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider>
-        <NavBar />
+    <>
+      <NavBar />
       <Component {...pageProps} />
-    </Provider>
+    </>
   );
 }
 

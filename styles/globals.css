@@ -42,22 +42,11 @@ html {
 
 /* ScrollBar */
 ::-webkit-scrollbar {
-  width: 0.7rem;
-}
-
-::-webkit-scrollbar-track {
-  border: 10px solid #e5e7eb;
-  border-radius: 1rem;
+  width: 0.4rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background: rgb(86 81 229 / var(--tw-text-opacity));
-  border-radius: 1rem;
-}
-
-/* for Firefox */
-html {
-  scrollbar-color: #9e4673 #3d4a59;
 }
 
 * {
@@ -97,10 +86,10 @@ a:hover {
 }
 
 .nav {
-background: rgba( 86, 81, 229, 1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 6.5px );
--webkit-backdrop-filter: blur( 6.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(86, 81, 229, 1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
