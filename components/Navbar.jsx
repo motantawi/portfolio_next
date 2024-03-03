@@ -27,11 +27,11 @@ export const links = [
     title: "Projects",
     href: "/projects",
   },
-  {
-    id: 5,
-    title: "Resume",
-    href: "/resume",
-  },
+  // {
+  //   id: 5,
+  //   title: "Resume",
+  //   href: "/resume",
+  // },
   {
     id: 6,
     title: "Contact",
