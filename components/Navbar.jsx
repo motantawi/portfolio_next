@@ -206,7 +206,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
+                <Link href="https://drive.google.com/file/d/1m8t1YboAQOJnzHBabtmjr_gSizvn7C5S/view">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
