@@ -24,29 +24,53 @@ const about = () => {
               About
             </p>
             <h2 className="py-4">Who I Am</h2>
-            <p className="py-2 text-gray-600">
-              Driven and adaptable React Frontend Developer with hands-on
-              expertise in HTML5, CSS3, React, Redux, TypeScript, Next.js,
-              JavaScript, Node.js, Express, MongoDB, and more. Skilled in Agile
-              methodologies, I bring a strong foundation in frontend
-              technologies and a keen understanding of client requirements to
-              deliver impactful projects.
+            <p className="py-2 text-gray-700">
+              As a dynamic React Frontend Developer, I specialize in a
+              comprehensive suite of technologies including HTML5, CSS3,
+              JavaScript, React, Redux, TypeScript, Next.js, Node.js, Express,
+              MongoDB, Mongoose, AJAX, Sass, Tailwind CSS, Bootstrap, MUI,
+              Mantine UI, and React Query. My foundation in Agile methodologies,
+              combined with a deep understanding of frontend development
+              principles, enables me to deliver projects that meet and exceed
+              client expectations.
             </p>
-            <p className="py-2 text-gray-600">
-              Noteworthy experience includes roles as a Front-End Developer
-              Intern at Code Alpha, where I honed my skills in crafting web
-              pages using HTML, CSS, and JavaScript. Additionally, my tenure as
-              a Software Engineering Intern at ALX Africa broadened my knowledge
-              across diverse software engineering topics, reinforcing my
-              capabilities in programming, algorithms, web development, and
-              project management.
-            </p>
-            <p className="py-2 text-gray-600">
-              As a dedicated Freelance Front-End Developer, I ensured seamless
-              and mobile-responsive UI layouts, excelling in troubleshooting
-              issues, configuring operational plugins, and implementing design
-              changes. Eager to contribute and grow further in the ever-evolving
-              realm of frontend development.
+            <p className="py-2 text-gray-700">
+              <strong className="text-gray-800">
+                Professional Experience:
+              </strong>
+              <br />
+              <strong className="text-gray-900">
+                Frontend Developer at Ajwaab:
+              </strong>{" "}
+              In my current role at this pioneering educational platform, I
+              apply my front-end development expertise to craft responsive,
+              intuitive interfaces. My work supports Ajwaab's mission to merge
+              technology with education, enhancing the online learning
+              experience for users worldwide.
+              <br />
+              <strong className="text-gray-900">
+                Front-End Developer Intern at Code Alpha:
+              </strong>{" "}
+              This position sharpened my proficiency in web development,
+              focusing on HTML, CSS, and JavaScript. My contributions here
+              involved creating visually appealing, efficient web pages.
+              <br />
+              <strong className="text-gray-900">
+                Software Engineering Intern at ALX Africa:
+              </strong>{" "}
+              My tenure expanded my knowledge in software engineering, covering
+              a broad spectrum of subjects including programming, algorithms,
+              web development, and project management. This role was
+              instrumental in reinforcing my technical skills and industry
+              knowledge.
+              <br />
+              <strong className="text-gray-900">
+                Freelance Front-End Developer:
+              </strong>{" "}
+              I have excelled in creating seamless, mobile-responsive UI
+              layouts. My freelance projects highlight my ability to
+              troubleshoot, implement design adjustments, and enhance web
+              functionality through operational plugins.
             </p>
             <Link href="/projects">
               <p className="py-2 text-gray-600 underline cursor-pointer">
