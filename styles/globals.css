@@ -42,12 +42,10 @@ html {
 
 /* ScrollBar */
 ::-webkit-scrollbar {
-  width: 0.4rem;
+  width: 0rem;
 }
 
-::-webkit-scrollbar-thumb {
-  background: rgb(86 81 229 / var(--tw-text-opacity));
-}
+
 
 * {
   font-weight: bold;
@@ -80,10 +78,6 @@ a:hover {
   color: rgb(86 81 229 / var(--tw-text-opacity));
 }
 
-.cv_btn:hover {
-  background: #fff !important;
-  color: rgb(86 81 229 / var(--tw-text-opacity));
-}
 
 .nav {
   background: rgba(86, 81, 229, 1);
