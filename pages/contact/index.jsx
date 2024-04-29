@@ -4,11 +4,10 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
+import ContactImg from "../../public/assets/contact.jpg";
 import Head from "next/head";
 
-const contact = () => {
+const index = () => {
   return (
     <>
       <Head>
@@ -149,4 +148,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default index;

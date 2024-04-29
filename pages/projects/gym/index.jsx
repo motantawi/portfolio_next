@@ -1,18 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import movixImg from "../public/assets/projects/movix.png";
+import gymImg from "../../../public/assets/projects/gym-app.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const movie = () => {
+const gym = () => {
   return (
     <>
       <Head>
-        <title>Projects | Movix</title>
+        <title>Projects | Gym Website</title>
         <link rel="icon" href="/fav.png" />
       </Head>
-
       <div className="w-full">
         <div className="w-screen h-[50vh] relative">
           <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
@@ -20,12 +19,12 @@ const movie = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={movixImg}
+            src={gymImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Movix</h2>
-            <h3>React JS / Redux / React Router / TMDB API</h3>
+            <h2 className="py-2">Gym Website</h2>
+            <h3>React JS / Typescript / Firebase</h3>
           </div>
         </div>
 
@@ -34,20 +33,17 @@ const movie = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I built this application in React JS and is hosted on Firbase.
-              This application is pulling movie data from an the TMDB movie API
-              and displaying different categories. It features horizontal
-              sliding and a featured selection. Redux is also being implemented
-              for app-wide state management.
+              This app was built using React JS and Typescript and is hosted on
+              Firebase.
             </p>
             <a
-              href="https://github.com/motantawi/movix"
+              href="https://github.com/motantawi/gym_typescript"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
-            <a href="https://movix12.web.app/" target="_blank" rel="noreferrer">
+            <a href="https://gym-11.web.app/" target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
@@ -56,16 +52,13 @@ const movie = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> React
+                  <RiRadioButtonFill className="pr-1" /> React.JS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Redux-ToolKit
+                  <RiRadioButtonFill className="pr-1" /> Typescript
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> React Router DOM
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> TMDB API
+                  <RiRadioButtonFill className="pr-1" /> Firebase
                 </p>
               </div>
             </div>
@@ -79,4 +72,4 @@ const movie = () => {
   );
 };
 
-export default movie;
+export default gym;

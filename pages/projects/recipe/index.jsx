@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import amazonImg from "../public/assets/projects/amazon.png";
+import recipeImg from "../../../public/assets/projects/recipe.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const crypto = () => {
+const recipe = () => {
   return (
     <>
       <Head>
-        <title>Projects | Amazon Clone</title>
+        <title>Projects | Recipe App</title>
         <link rel="icon" href="/fav.png" />
       </Head>
       <div className="w-full">
@@ -19,12 +19,12 @@ const crypto = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={amazonImg}
+            src={recipeImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Amazon Clone</h2>
-            <h3>Next JS / Tailwind / Stripe / Typescript / Authentication</h3>
+            <h2 className="py-2">Recipe App</h2>
+            <h3>React JS / Meal DB API / Firebase</h3>
           </div>
         </div>
 
@@ -33,22 +33,18 @@ const crypto = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              I built this app to demonstrate knowledge working in Next JS and
-              accessing API endpoints. This app was built using Next JS and is
-              hosted on Vercel. This application supports user authentication
-              using Next Auth. Users are able to sign in using their google
-              account or github account. This is made possble thanks to Auth.JS.
-              This application was built using Stripe.
+              This app was built using React JS and Meal DB API and is hosted on
+              Firebase.
             </p>
             <a
-              href="https://github.com/motantawi/amazon_nextjs"
+              href="https://github.com/motantawi/recipe-app"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
             <a
-              href="https://amazon-next-tsx.vercel.app/"
+              href="https://recipe11.web.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -58,24 +54,15 @@ const crypto = () => {
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-3 md:grid-cols-1 ">
+              <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Next
+                  <RiRadioButtonFill className="pr-1" /> React.JS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Tailwind
+                  <RiRadioButtonFill className="pr-1" /> Meal db API
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Typescript
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Stripe
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Authentication
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Fake Store API
+                  <RiRadioButtonFill className="pr-1" /> Axios
                 </p>
               </div>
             </div>
@@ -89,4 +76,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default recipe;

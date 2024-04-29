@@ -1,45 +1,13 @@
 "use client";
-
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-export const links = [
-  {
-    id: 1,
-    title: "Home",
-    href: "/",
-  },
-  {
-    id: 2,
-    title: "About",
-    href: "/about",
-  },
-  {
-    id: 3,
-    title: "Skills",
-    href: "/skills",
-  },
-  {
-    id: 4,
-    title: "Projects",
-    href: "/projects",
-  },
-  // {
-  //   id: 5,
-  //   title: "Resume",
-  //   href: "/resume",
-  // },
-  {
-    id: 6,
-    title: "Contact",
-    href: "/contact",
-  },
-];
+import { navLinks } from "../../utils/constants";
 
-const Navbar = () => {
+const index = () => {
   const router = useRouter();
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -90,7 +58,7 @@ const Navbar = () => {
             style={{ color: `${linkColor}`, marginRight: "20px" }}
             className="hidden md:flex"
           >
-            {links.map((link) => {
+            {navLinks.map((link) => {
               return (
                 <li
                   className={
@@ -158,7 +126,7 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              {links.map((link) => {
+              {navLinks.map((link) => {
                 return (
                   <Link href={link.href} key={link.id}>
                     <li
@@ -223,4 +191,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default index;

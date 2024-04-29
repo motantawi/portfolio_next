@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import gymImg from "../public/assets/projects/gym-app.png";
+import youtubeImg from "../../../public/assets/projects/youtube.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const gym = () => {
+const youtube = () => {
   return (
     <>
       <Head>
-        <title>Projects | Gym Website</title>
+        <title>Projects | Youtube Clone</title>
         <link rel="icon" href="/fav.png" />
       </Head>
       <div className="w-full">
@@ -19,12 +19,12 @@ const gym = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={gymImg}
+            src={youtubeImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Gym Website</h2>
-            <h3>React JS / Typescript / Firebase</h3>
+            <h2 className="py-2">Youtube Clone</h2>
+            <h3>React JS / Rapid API / MUI</h3>
           </div>
         </div>
 
@@ -33,17 +33,23 @@ const gym = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              This app was built using React JS and Typescript and is hosted on
-              Firebase.
+              I built this application in React JS and is hosted on Firbase.
+              This application is pulling youtube data from an the Rapid API and
+              displaying different categories. It features horizontal sliding
+              and a featured selection.
             </p>
             <a
-              href="https://github.com/motantawi/gym_typescript"
+              href="https://github.com/motantawi/youtube_clone"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
-            <a href="https://gym-11.web.app/" target="_blank" rel="noreferrer">
+            <a
+              href="https://yt-app11.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="px-8 py-2 mt-4">Demo</button>
             </a>
           </div>
@@ -55,7 +61,10 @@ const gym = () => {
                   <RiRadioButtonFill className="pr-1" /> React.JS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Typescript
+                  <RiRadioButtonFill className="pr-1" /> Rapid API
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> MUI
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> Firebase
@@ -72,4 +81,4 @@ const gym = () => {
   );
 };
 
-export default gym;
+export default youtube;

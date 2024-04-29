@@ -1,17 +1,18 @@
 import Image from "next/image";
 import React from "react";
-import aiImg from "../public/assets/projects/ai-sumz.png";
+import travelImg from "../../../public/assets/projects/travel.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const summarizer = () => {
+const travel = () => {
   return (
     <>
       <Head>
-        <title>Projects | Ai Summarizer</title>
+        <title>Projects | React App</title>
         <link rel="icon" href="/fav.png" />
       </Head>
+
       <div className="w-full">
         <div className="w-screen h-[50vh] relative">
           <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
@@ -19,12 +20,12 @@ const summarizer = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={aiImg}
+            src={travelImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Ai Summarizer</h2>
-            <h3>React / Redux / Rapid API / Tailwind CSS</h3>
+            <h2 className="py-2">Travel Website</h2>
+            <h3>React JS / TailWind CSS</h3>
           </div>
         </div>
 
@@ -33,20 +34,18 @@ const summarizer = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              This app was built using React JS and is hosted on Firebase.
-              Summarize Articles with OpenAI GPT-4. Simplify your reading with
-              Summize, an open-source article summarizer that transforms lengthy
-              articles into clear and concise summaries.
+              I built this application in React JS and is hosted on Firbase.
+              This application is Fully Responsive thanks to tailwind css.
             </p>
             <a
-              href="https://github.com/motantawi/ai-summarizer/"
+              href="https://github.com/motantawi/travel-website"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a>
             <a
-              href="https://ai-summarizer1.web.app/"
+              href="https://travel-website11.web.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -60,17 +59,9 @@ const summarizer = () => {
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> React
                 </p>
+
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Tailwind
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Javascript
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Redux
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Rapid API
+                  <RiRadioButtonFill className="pr-1" /> TailWind CSS
                 </p>
               </div>
             </div>
@@ -84,4 +75,4 @@ const summarizer = () => {
   );
 };
 
-export default summarizer;
+export default travel;
