@@ -143,3 +143,30 @@ export const navLinks = [
     href: "/contact",
   },
 ];
+
+export const experiences = [
+  {
+    id: 1,
+    title: "Frontend Developer at Ajwaab",
+    description:
+      "In my current role at this pioneering educational platform, I apply my front-end development expertise to craft responsive, intuitive interfaces. My work supports Ajwaab's mission to merge technology with education, enhancing the online learning experience for users worldwide.",
+  },
+  {
+    id: 2,
+    title: "Front-End Developer Intern at Code Alpha",
+    description:
+      "This position sharpened my proficiency in web development, focusing on HTML, CSS, and JavaScript. My contributions here involved creating visually appealing, efficient web pages.",
+  },
+  {
+    id: 3,
+    title: "Software Engineering Intern at ALX Africa",
+    description:
+      "My tenure expanded my knowledge in software engineering, covering a broad spectrum of subjects including programming, algorithms, web development, and project management. This role was instrumental in reinforcing my technical skills and industry knowledge.",
+  },
+  {
+    id: 4,
+    title: "Freelance Front-End Developer",
+    description:
+      "I have excelled in creating seamless, mobile-responsive UI layouts. My freelance projects highlight my ability to troubleshoot, implement design adjustments, and enhance web functionality through operational plugins.",
+  },
+];
