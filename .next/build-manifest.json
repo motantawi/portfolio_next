@@ -35,15 +35,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
-    "/contact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
-    ],
     "/projects": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
+    ],
+    "/projects/amazon": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects/amazon.js"
+    ],
+    "/skills": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/skills.js"
     ]
   },
   "ampFirstPages": []
