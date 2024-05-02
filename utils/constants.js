@@ -1,4 +1,6 @@
 // Projects
+import todoImg from "../public/assets/projects/todoList.png";
+import blogImg from "../public/assets/projects/blogApp.png";
 import aiImg from "../public/assets/projects/ai-sumz.png";
 import amazonImg from "../public/assets/projects/amazon.png";
 import movixImg from "../public/assets/projects/movix.png";
@@ -29,6 +31,18 @@ import MantineUI from "../public/assets/skills/mantineui.png";
 import ReactQuery from "../public/assets/skills/reactquery.png";
 
 export const Projects = [
+  {
+    title: "Todo-List",
+    img: todoImg,
+    url: "/projects/todolist",
+    tech: "React Js",
+  },
+  {
+    title: "MERN Blog",
+    img: blogImg,
+    url: "/projects/blog",
+    tech: "React Js",
+  },
   {
     title: "Amazon",
     img: amazonImg,
