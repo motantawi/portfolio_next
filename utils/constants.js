@@ -175,7 +175,7 @@ export const experiences = [
     title: "Front-End Developer Intern at Code Alpha",
     description:
       "This position sharpened my proficiency in web development, focusing on HTML, CSS, and JavaScript. My contributions here involved creating visually appealing, efficient web pages.",
-  }
+  },
   {
     id: 4,
     title: "Freelance Front-End Developer",
