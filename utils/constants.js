@@ -160,23 +160,22 @@ export const navLinks = [
 
 export const experiences = [
   {
-    id: 1,
-    title: "Frontend Developer at Ajwaab",
-    description:
-      "In my current role at this pioneering educational platform, I apply my front-end development expertise to craft responsive, intuitive interfaces. My work supports Ajwaab's mission to merge technology with education, enhancing the online learning experience for users worldwide.",
+   id: 1,
+   title: "NextJS Developer at NextGen Softwares",
+   description: "I build and maintain responsive web applications. I participate in code reviews, collaborate with team members, and continuously learn new technologies. Based in Egypt, I thrive in remote team environments and am dedicated to meeting project goals and deadlines." 
   },
   {
     id: 2,
-    title: "Front-End Developer Intern at Code Alpha",
+    title: "Frontend Developer at Ajwaab",
     description:
-      "This position sharpened my proficiency in web development, focusing on HTML, CSS, and JavaScript. My contributions here involved creating visually appealing, efficient web pages.",
+      "At Ajwaab, I used my front-end development skills to improve a system that helps educational centers manage their operations. My role is to create responsive, user-friendly interfaces, making it easier for these centers to bridge the gap between technology and education.",
   },
   {
     id: 3,
-    title: "Software Engineering Intern at ALX Africa",
+    title: "Front-End Developer Intern at Code Alpha",
     description:
-      "My tenure expanded my knowledge in software engineering, covering a broad spectrum of subjects including programming, algorithms, web development, and project management. This role was instrumental in reinforcing my technical skills and industry knowledge.",
-  },
+      "This position sharpened my proficiency in web development, focusing on HTML, CSS, and JavaScript. My contributions here involved creating visually appealing, efficient web pages.",
+  }
   {
     id: 4,
     title: "Freelance Front-End Developer",
