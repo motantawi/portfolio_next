@@ -23,14 +23,11 @@ const index = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-700">
-            As a dynamic React Frontend Developer, I specialize in a
-            comprehensive suite of technologies including HTML5, CSS3,
-            JavaScript, React, Redux, TypeScript, Next.js, Node.js, Express,
-            MongoDB, Mongoose, AJAX, Sass, Tailwind CSS, Bootstrap, MUI, Mantine
-            UI, and React Query. My foundation in Agile methodologies, combined
-            with a deep understanding of frontend development principles,
-            enables me to deliver projects that meet and exceed client
-            expectations.
+            An experienced React Frontend Developer with more than a year and half of hands-on work, I specialize in turning complex requirements into smooth and engaging digital experiences. My skills encompass a wide range of modern web technologies, and I have a strong understanding of Agile methods. I focus on adaptability and collaboration to take projects from start to finish.
+
+My career in technology is driven by a constant desire to learn and improve, giving me a deep understanding of software engineering principles. This background helps me handle the detailed aspects of front-end development, from creating responsive designs to boosting user engagement with careful attention to design and functionality.
+
+Let’s connect to discuss how I can bring innovative solutions and a deep commitment to quality to your team. I am eager to leverage my skills and experience to produce outstanding results for your projects.
           </p>
           <p className="py-2 text-gray-700">
             <strong className="text-gray-800">Professional Experience:</strong>
